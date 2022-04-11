@@ -170,8 +170,8 @@ address {
   margin-left: auto;
 }
 
-.header .contacts-list-item + .contacts-list-item {
-  margin-left: 50px;
+.header .contacts-list-item:not(:nth-last-child(1)) {
+  margin-right: 50px;
 }
 
 /* End header */
@@ -225,12 +225,8 @@ address {
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--primary-color);
+  margin-bottom: 10px;
 }
-
-.advantages-list-paragraph {
-  margin-top: 10px;
-}
-
 /* advantages end */
 
 /* our works start */
