@@ -151,7 +151,7 @@ address {
   color: var(--primary-color);
 }
 
-.nav-list-item:not(:nth-last-child(1)) {
+.nav-list-item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -170,7 +170,7 @@ address {
   margin-left: auto;
 }
 
-.header .contacts-list-item:not(:nth-last-child(1)) {
+.header .contacts-list-item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -227,6 +227,7 @@ address {
   color: var(--primary-color);
   margin-bottom: 10px;
 }
+
 /* advantages end */
 
 /* our works start */
@@ -302,7 +303,7 @@ address {
   font-style: inherit;
 }
 
-.footer .contacts-list-item:not(:nth-last-child(1)) {
+.footer .contacts-list-item:not(:last-child) {
   margin-bottom: 9px;
 }
 
@@ -332,7 +333,7 @@ address {
   margin-bottom: 50px;
 }
 
-.portfolio-filter-item:not(:nth-last-child(1)) {
+.portfolio-filter-item:not(:last-child) {
   margin-right: 8px;
 }
 
